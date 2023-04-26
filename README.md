@@ -18,6 +18,11 @@ The template itself is really simple, just calling `attachmentSelector()` and li
 {{< figure src="[[<% await tp.user.attachmentSelector(tp, tp.file.path(true)) %>]]" title="" alt="" caption="" >}}
 ```
 
+# Usage
+`attachmentSelector.js` is intended to be used as a Templater [user script](https://silentvoid13.github.io/Templater/user-functions/script-user-functions.html). You'll want to configure Templater's user script directory, and drop it in there.
+
+Similarly, `blog-figure.md` should be moved into your configured templates folder.
+
 # Example
 Let's say you've got a document that looks something like this:
 
